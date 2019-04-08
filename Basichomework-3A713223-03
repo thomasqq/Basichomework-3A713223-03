@@ -1,0 +1,22 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+/* run this program using the console pauser or add your own getch, system("pause") or input loop */
+
+int main(void) {
+	
+	int bw;
+	float bmi,h;
+	
+	printf("請輸入您的體重(公斤):");
+	scanf("%d",&bw);
+	printf("請輸入您的身高(公尺):");
+	scanf("%f",&h);
+		
+	bmi=bw/(h*h);
+	
+	printf("您的BMI值為%f\n",bmi); 
+	
+	system("PAUSE");
+	return 0;
+}
